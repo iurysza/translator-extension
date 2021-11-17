@@ -2,6 +2,7 @@
 # Google translator extension - WIP
 
 ## Getting started
+This is meant to be used with [Raycast](https://www.raycast.com/)
 
 To use the extension follow these steps:
 1. Checkout the repository
