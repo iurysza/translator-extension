@@ -1,0 +1,36 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "g-translate",
+  "title": "Google Translator",
+  "description": "Raycast translation extension using Google Translator",
+  "icon": "command-icon.png",
+  "license": "MIT",
+  "author": "Iury Souza",
+  "commands": [
+    {
+      "name": "translator",
+      "title": "Translate to German",
+      "description": "Translate input to German using Google Translator",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.25.0",
+    "@translate-tools/core": "0.0.17",
+    "node-fetch": "^3.0.0",
+    "open": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "~16.10.0",
+    "@types/react": "^17.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "dev": "ray develop",
+    "build": "ray build -e dist"
+  }
+}
